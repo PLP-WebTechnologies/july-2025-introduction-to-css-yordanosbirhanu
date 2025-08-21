@@ -1,0 +1,87 @@
+/* Reset some default spacing */
+body, h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 20px;
+}
+
+/* Header styling */
+header {
+  background: #4CAF50;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+header ul {
+  list-style: none;
+}
+
+header li {
+  display: inline;
+  margin: 0 15px;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Section styling */
+.intro {
+  background: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+}
+
+/* Card container */
+.cards {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.card {
+  flex: 1;
+  background: #fff;
+  border: 2px solid #ddd;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 6px;
+}
+
+/* Button styling */
+.styled-btn {
+  background: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.styled-btn:hover {
+  background: #45a049;
+}
+
+/* Footer styling */
+footer {
+  margin-top: 20px;
+  padding: 15px;
+  text-align: center;
+  background: #333;
+  color: white;
+  border-radius: 8px;
+}
